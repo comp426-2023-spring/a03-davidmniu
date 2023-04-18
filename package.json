@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "node-rpsls",
+  "version": "1.0.0",
+  "description": "fucking cocksuckers",
+  "main": "./lib/rpsls.js",
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
